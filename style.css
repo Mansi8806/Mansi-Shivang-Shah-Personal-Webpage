@@ -1,0 +1,101 @@
+/*All syntax types are inspired from Shawn Morgan's teachings and w3schools website*/
+/*CSS overrides default setting*/
+/*styling for headings*/
+h2 {
+	color: rgb(100,100,100);
+	font-size: 1.7em;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+}
+
+h3 {
+	color: rgb(120,120,120);
+	font-size: 1.3em;
+}
+/*style for paragraphs*/
+p {
+	font-family: TimesNewRoman;
+	font-size: 1em:
+}
+
+/*style for main heading*/
+.title {
+color: brown;
+text-align: center; 
+}
+
+/*all links style*/
+a:link {
+	background-color: lightgray;
+	color: blue;
+}
+a:hover {
+	color: red;
+}
+
+/*next page style*/
+.page2 a:hover {
+	opacity: 1;
+}
+
+/*image style*/
+.maps1 {
+	float: right;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.maps2 {
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.staticmaps1 {
+    float: left;
+}
+.staticmaps2 {
+   	margin-left: 10px;
+    float: right;
+}
+
+.figure {
+	font-weight: bold;
+	font-style: italic;
+}
+.figure1 {
+	text-align: right;
+	font-weight: bold;
+	font-style: italic;
+}	
+
+/*focussing on note*/
+.note {
+	font-size: 14px;
+	font-style: italic;
+}
+
+/*improving table look*/
+table, th, td {
+    border: 1px solid black;
+	text-align: center;
+}
+table {
+	float: right;
+    border-collapse: collapse;
+    width: 50%;
+	margin-bottom: 20px;
+}
+#table tr:nth-child(even){
+	background-color: rgb(200,200,200);
+}
+#table th {
+	background-color: slateblue;
+    color: white;
+}	
+
+.outputs {
+	text-align: left;
+	margin-top: 500px;
+}

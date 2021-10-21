@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--GEOM 101- Web Design and Programming-->
+<!--Project 2, Personal website of Mansi Shivang Shah- 10266074-->
+<!--I have made a website of my own research work done during Master of Engineering as a part of thesis-->
+<!--I have included 4 items out of 7 items of section 3. 
+They are (1) Table, (2) Unique images, (3) Static google maps and (4) External links.  Kindly consider the ones which have higher scores.-->
+
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css">
+<title>Soil and Water Assessment Tool (SWAT) </title>
+</head>
+<body>
+<!-- Title of research-->
+<h1 class="title">Hydrological Modelling of Deo River 
+Sub-Basin using SWAT Model</h1>
+
+<!--Link for 2nd page-->
+<p> <a href= "page2.html"> Next Page</a> </p>
+
+ <p> 
+<img class="maps1" src="LocationMap.jpg" alt="Location of Study Area" width="450" height="550"> 
+	<h2> Brief Introduction </h2>
+<p> The current research analyses the runoff response using 
+Soil and Water Assessment Tool (SWAT) during rainfall incidents 
+over the sub-basin of Deo River, Panch Mahal, Gujarat, India.
+The SWAT model is developed for the Deo river sub-basin having 
+catchment area of 194.36 km <sup>2</sup>
+, with 7 sub-basins comprising of 94 
+Hydrological Response Units (HRUs). Two rain gauge stations 
+present in the study area (viz., Deo dam and Shivrajpur) 
+werechosen to evaluate the efficiency of the SWAT model.</p>
+
+<h2> What is SWAT? </h2>
+<p> SWAT is a continuous daily deterministic time-step model used to assess land-management procedures in basins.
+ArcSWAT, which is embodied in ArcGIS, is a graphical user interface for SWAT (SOIL AND WATER ASSESSMENT TOOL) model.
+The actual aim of developing this model is to predict the impact of land management practices on water, runoff values
+in large complex watershed with varying soil, 
+land use and management conditions over a long period of time. </p>
+
+<h2> Research Objectives </h2>
+<ul> <li>To use GIS techniques for simulation of surface runoff and water balance study of Deo dam basin.</li> 
+<li>DEM (Digital Elevation Model) based watershed delineation. </li>
+<li>To classify HRUs using ArcSWAT tool based on spatial data Land use, soil type and slope variation. </li>
+<li>To analyse the watershed characteristics.</li>
+<li>To assess the different components of water balance for the Deo dam basin.</li> 
+<li>To develop the model of the study area for the years 2000 to 2012.</li> </ul> 
+
+
+<h2>Study Area Location and Description
+<img class="maps2" src="subbasins.jpg" alt="Sub-basins map of study area" width="500" height="450"> </h2>
+<p> Deo river is selected for the present study which flows in 
+Dahod, Panch Mahals and Vadodara districts of Gujarat, India (Location shown in Map). Deo 
+river is the right bank tributary of the Dhadhar river. Its other 
+name is Dev river in the name of god. At 26 km distance Deo 
+dam is located on Deo river having catchment area of 194.36 
+sq. km., which is selected as study area. The basin lies 
+between 22° 22΄ N to 22° 31΄ N latitude and 73° 30΄ E to 73° 
+42΄ E longitude. The average annual precipitation is 1072 
+mm (42.21 inches) in the basin. The maximum average 
+temperature felt here is of 39℃ in the month of May and the 
+minimum average temperature of 13℃ for the month of 
+February. The average annual wind speed recorded at the 
+Deo dam weather station is 6.53 m/s. The map showing sub-basins and dam location is created which is attached here. </p>
+ 
+<h2> Model Set-up and Methodology of SWAT Model 
+<img class="maps1" src="flowchart.jpg" alt="Location of Study Area" width="550" height="450"> </h2>
+
+<p> The main steps involved in GIS interface of ArcSWAT are 
+Watershed delineation, HRU analysis, Write Input Tables 
+(weather data) and SWAT run. Flow chart of SWAT model is 
+shown in the figure. </p>
+
+<p> Watershed is delineated with DEM as main input and for 
+HRU analysis Land use map and soil map are required. HRU 
+(Hydrologic Response Unit) is a distinctive mixture of land 
+use, soil and slope characteristics. 94 HRUs were generated 
+giving thresholds of 5% for land use, 5% for soil and 10% for 
+slope. Then rainfall (mm) and maximum and minimum 
+temperature (℃) were given as input for SWAT Run. At last 
+SWAT run is performed entering the starting and ending date 
+of simulation, Print-out setting set to daily and the number of 
+warm up years. Finally SWAT check was run to get the 
+details of Water balance in the Deo river sub-basin. </p>
+
+<h2> Google Static Maps </h2>
+<p>Google static maps are shown below for 2 weather stations location whose meteorological data are used for study.
+1st weather station location is shown in map of India having red label which is near Deo dam. While 2nd weather station location
+is shown in the zoomed in map having green label.</p>
+<p class= "figure">Static map 1: Location of 1st weather station in India</figcaption></p>
+<p class= "figure1">Static map 2: Location of 2nd weather station in zoomed in scale</figcaption></p>
+
+<!--Google static maps for 2 study area weather stations-->
+<img class="staticmaps1" src="weatherstation1.png" alt="Location of 1<sup>st</sup> weather station" width="600" height="600">
+<img class="staticmaps2" src="weatherstation2.png" alt="Location of 2<sup>nd</sup> weather station" width="500" height="500">
+
+</body>
+</html>
+
+ 
